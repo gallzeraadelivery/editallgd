@@ -1,0 +1,11 @@
+# Requisitos do Sistema de Spoofing de APK
+
+# Bibliotecas Python padrão (não precisam ser instaladas)
+# Todas as bibliotecas usadas são parte do Python standard library
+
+# Dependências de sistema (instaladas separadamente):
+# - Apktool (para manipulação de APKs)
+# - JDK (para assinatura)
+
+# Para testes e desenvolvimento:
+pytest>=6.0.0

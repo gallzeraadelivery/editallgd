@@ -77,6 +77,10 @@ O aplicativo foi desenvolvido usando:
 - Android SDK 33
 - Android Studio
 
+## Compilação
+
+Para compilar o projeto, siga as instruções em: [COMPILATION_INSTRUCTIONS.md](COMPILATION_INSTRUCTIONS.md)
+
 ## Licença
 
 Este projeto é apenas para fins educacionais e de teste.

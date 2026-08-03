@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.FingerprintSpoof" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Personalize sua tema aqui -->
+    </style>
+</resources>

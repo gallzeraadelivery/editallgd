@@ -1,0 +1,38 @@
+# Arquivos de cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+
+# Arquivos temporários
+temp/
+*.tmp
+*.log
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de build
+dist/
+build/
+*.egg-info/
+
+# Arquivos de desenvolvimento
+.env
+.env.local
+.env.*.local
+
+# Arquivos de testes
+test_*.py

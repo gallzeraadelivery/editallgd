@@ -15,7 +15,8 @@ Este é um aplicativo Android que permite modificar os "fingerprints" do disposi
 
 - Dispositivo Android com root
 - Android 5.0 (API level 21) ou superior
-- Permissões especiais para acesso ao sistema
+- Ambiente de desenvolvimento Android (Android Studio)
+- JDK 8 ou superior
 
 ## Estrutura do Projeto
 
@@ -37,19 +38,29 @@ android_fingerprint_spoof/
 │           └── AndroidManifest.xml  # Manifesto do aplicativo
 ├── build.gradle              # Configuração do projeto
 ├── gradle.properties         # Propriedades do Gradle
-└── gradlew.bat           # Script do Gradle para Windows
+├── gradlew.bat           # Script do Gradle para Windows
+└── INSTALLATION_SCRIPT.sh   # Script de instalação
 ```
 
-## Instalação
+## Instalação e Compilação
 
-1. Clone o repositório:
+### Para ambiente MacBook com Android Studio:
+
+1. **Clonar o repositório:**
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/gallzeraadelivery/editallgd.git
+cd editallgd/android_fingerprint_spoof
 ```
 
-2. Abra o projeto no Android Studio
+2. **Compilar o projeto:**
+   - Abra no Android Studio
+   - Vá para Build → Make Project
+   - O APK será gerado em: `app/build/outputs/apk/debug/app-debug.apk`
 
-3. Compile e instale no dispositivo rootado
+3. **Para compilação via linha de comando:**
+```bash
+./gradlew build
+```
 
 ## Uso
 
